@@ -21,10 +21,12 @@ DNS泄露检测：[网站一](https://ipleak.net/)        [网站二](https://br
 
 
 OpenClash Luci安装：
+
 immortalwrt软件包处直接安装,  官方openwrt手动安装、Lean的固件请使用已经编译好openclash的固件。
 
 命令安装注意事项：
 首先分辨openwrt防火墙类别（iptables or nftables）、
+
 通过ssh连接openwrt执行命令判断：
 iptables -L
 如果能正常列出规则,则表示使用的是iptables
