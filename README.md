@@ -42,6 +42,7 @@ opkg remove dnsmasq       卸载dnsmasq  安装依赖前执行卸载.
 opkg remove dnsmasq && opkg install dnsmasq-full  卸载dnsmasq并安装dnsmasq-full,如果忘记卸载dnsmasq安装依赖后报错,执行这个.
 
 openclash安装clash内核
+
 第一方案：如果openwrt 有其他的科学插件例如passwall可以正常使用，开启后直接点击更新即可，更新完毕记得关闭。
 
 第二方案：电脑端目前可以正常翻墙例如使用clash v2ray等，直接点击下载到本地或者下载官方版本，然后手动上传安装。
